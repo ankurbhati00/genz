@@ -1,2 +1,3 @@
-# LIVE LINK CHECK IT NOW !
-(click here)[https://genz-ebyk.onrender.com/]
+# LIVE LINK CHECK IT NOW ! 
+
+https://genz-ebyk.onrender.com/
