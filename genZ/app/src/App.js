@@ -34,21 +34,21 @@ function App() {
 
   return (
     <div
-      class="rounded-lg bg-white h-[80vh] border bg-card text-card-foreground shadow-sm w-full max-w-3xl mx-auto my-[50px]"
+      class="rounded-lg bg-white h-[85vh] border bg-card text-card-foreground shadow-sm w-full max-w-3xl mx-auto my-[50px]"
       data-v0-t="card"
     >
       <div class="flex flex-col h-[100%] justify-between">
-        <div class="flex flex-col justify-end p-6 space-y-4 overflow-hidden">
-          <div class="flex flex-col space-y-2 h-auto ">
+        <div class="flex flex-col justify-end p-6 space-y-4 ">
+          <div class="flex flex-col space-y-2 h-auto overflow-y-auto">
             <div>Ask Something?</div>
             {!loading && data ? (
               <div class="rounded-xl bg-gray-100 p-4 dark:bg-gray-800 ">
-                <p class="text-sm/relaxed text-gray-500 dark:text-gray-400 ">
+                <p class="text-xl text-white bg-black rounded-md p-2 ">
                   {data}
                 </p>
               </div>
             ) : loading ? (
-              <div className="animate-pulse">Responding...</div>
+              <div className="animate-pulse">Thinking...</div>
             ) : (
               <></>
             )}
