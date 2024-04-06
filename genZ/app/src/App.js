@@ -38,11 +38,11 @@ function App() {
       data-v0-t="card"
     >
       <div class="flex flex-col h-[100%] justify-between">
-        <div class="flex flex-col justify-end p-6 space-y-4 ">
-          <div class="flex flex-col space-y-2 h-auto overflow-y-auto">
+        <div class="flex flex-col justify-end p-6 space-y-4 h-[90%]">
+          <div class="flex flex-col space-y-2  h-[100%]">
             <div>Ask Something?</div>
             {!loading && data ? (
-              <div class="rounded-xl bg-gray-100 p-4 dark:bg-gray-800 ">
+              <div class="rounded-xl bg-gray-100 p-4 dark:bg-gray-800 max-h-[100%] overflow-y-auto">
                 <p class="text-xl text-white bg-black rounded-md p-2 ">
                   {data}
                 </p>
