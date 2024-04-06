@@ -38,7 +38,7 @@ function App() {
       data-v0-t="card"
     >
       <div class="flex flex-col h-[100%] justify-between">
-        <div class="flex flex-col justify-end p-6 space-y-4 h-[90%]">
+        <div class="flex flex-col justify-end p-6 space-y-4 max-h-[90%]">
           <div class="flex flex-col space-y-2  h-[100%]">
             <div>Ask Something?</div>
             {!loading && data ? (
